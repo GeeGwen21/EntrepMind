@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Campuestuhan Resort</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      background:#f0f0f0;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      min-height:100vh;
+      font-family:Arial, sans-serif;
+    }
+
+    /* Mobile size same as image */
+    .phone-view{
+      width:390px;
+      height:844px;
+      overflow:hidden;
+      border-radius:40px;
+      box-shadow:0 10px 30px rgba(0,0,0,0.2);
+      background:white;
+    }
+
+    .phone-view img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      display:block;
+    }
+
+    /* Responsive */
+    @media(max-width:420px){
+      .phone-view{
+        width:100%;
+        height:100vh;
+        border-radius:0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="phone-view">
+
+    <!-- INSERT YOUR IMAGE HERE -->
+    <img src="Images/map.png" alt="Campuestuhan Resort">
+
+  </div>
+
+</body>
+</html>
